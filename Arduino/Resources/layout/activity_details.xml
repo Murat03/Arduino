@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" 
+        android:text="Title Text"
+        android:textSize="25sp"
+        android:padding="5dp"/>
+    <TextView
+        android:text="Detail Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/detailText" 
+        android:padding="5dp"
+        android:textSize="21sp"/>
+    <TextView
+        android:text="Daha Detaylı Bilgi için Tıkla"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkText"
+        android:padding="5dp"
+        android:textColor="#ff01579b"
+        android:textStyle="italic"/>
+    <TextView
+        android:text="Daha Detaylı Bilgi için Tıkla"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkText2"
+        android:padding="5dp"
+        android:textColor="#ff01579b"
+        android:textStyle="italic"
+        android:visibility="gone"
+        android:textSize="25sp"/>
+    <TextView
+        android:text="Daha Detaylı Bilgi için Tıkla"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkText3"
+        android:padding="5dp"
+        android:textColor="#ff01579b"
+        android:textStyle="italic"
+        android:visibility="gone"
+        android:textSize="25sp"/>
+    <TextView
+        android:text="Daha Detaylı Bilgi için Tıkla"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkText4"
+        android:padding="5dp"
+        android:textColor="#ff01579b"
+        android:textStyle="italic"
+        android:visibility="gone"
+    android:textSize="25sp"/>
+    <TextView
+        android:text="Daha Detaylı Bilgi için Tıkla"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkText5"
+        android:padding="5dp"
+        android:textColor="#ff01579b"
+        android:textStyle="italic"
+        android:visibility="gone"
+        android:textSize="25sp"/>
+    <TextView
+        android:text="Daha Detaylı Bilgi için Tıkla"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkText6"
+        android:padding="5dp"
+        android:textColor="#ff01579b"
+        android:textStyle="italic"
+        android:visibility="gone"
+        android:textSize="25sp"/>
+    <TextView
+        android:text="Daha Detaylı Bilgi için Tıkla"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkText7"
+        android:padding="5dp"
+        android:textColor="#ff01579b"
+        android:textStyle="italic"
+        android:visibility="gone"
+        android:textSize="25sp"/>
+    <TextView
+        android:text="Daha Detaylı Bilgi için Tıkla"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkText8"
+        android:padding="5dp"
+        android:textColor="#ff01579b"
+        android:textStyle="italic"
+        android:visibility="gone"
+        android:textSize="25sp"/>
+    <TextView
+        android:text="Daha Detaylı Bilgi için Tıkla"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkText9"
+        android:padding="5dp"
+        android:textColor="#ff01579b"
+        android:textStyle="italic"
+        android:visibility="gone"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/questionTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:text="Soru"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="#ffb71c1c" 
+        android:visibility="gone"/>
+    <TextView
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionText"
+        android:padding="5dp"
+        android:visibility="gone"/>
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup1"
+        android:visibility="gone">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Answer"
+            android:id="@+id/radioButton1" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Answer"
+            android:id="@+id/radioButton2" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Answer"
+            android:id="@+id/radioButton3" />
+    </RadioGroup>
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox1" 
+        android:visibility="gone"/>
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2"
+        android:visibility="gone"/>
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox3"
+        android:visibility="gone"/>
+    <Button
+        android:text="Cevabı Kontrol Et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerButton" 
+        android:layout_margin="5dp"
+        android:visibility="gone"/>
+    <TextView
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerText"
+        android:padding="5dp"
+        android:visibility="gone"/>
+    <Button
+        android:text="Bir Soru Oluştur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newQuestionButton" 
+        android:layout_margin="5dp"/>
+</LinearLayout>

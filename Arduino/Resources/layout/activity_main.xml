@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text="Öğrenmek istediğiniz konuyu seçin."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textView" 
+        android:padding="5dp"/>
+    <Button
+        android:text="Arduino Nedir?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+    <Button
+        android:text="Arduino'nun Donanım Özellikleri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+    <Button
+        android:text="Arduino Çeşitleri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3" />
+    <Button
+        android:text="Arduino Yazılımı"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4" />
+    <Button
+        android:text="Arduino İle Yapılabilecek Projeler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5" />
+    <Button
+        android:text="Yeni Başlayanlara Öneriler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6" />
+    <Button
+        android:text="Arduino Resimleri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7" />
+    <Button
+        android:text="Kaynakça"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8" />
+</LinearLayout>
